@@ -3,16 +3,35 @@ background: #0000FF;
 font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-color: [FFFF00];
+color: #FFFF00;
 text-align: center;
+}
+h1:hover {
+color: #E09336;
+text-align: center;
+}
+a {
+ text-decoration: none; 
+ color: black; 
+}
+a:hover {
+ text-decoration: none; 
+ color: #E09336; 
 }
 .assign {
 display: flex;
 padding: 10px;
 margin: 10px;
+border-radius: 20px;
 background: #87CEEB;
 }
 .assign img {
 width: 200px;
 padding: 10px;
+border: 2px solid #614A44
+}
+.assign img:hover {
+width: 200px;
+padding: 10px;
+border: 2px solid #E09336
 }
